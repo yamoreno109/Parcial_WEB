@@ -1,0 +1,56 @@
+#container-home {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(248, 252, 2);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-container {
+    display: flex; 
+    align-items: center; 
+}
+
+#input_digimon {
+    width: 550px; 
+    height: 5%; 
+    font-size: 18px; 
+    padding: 10px; 
+    border-radius: 5pc;
+}
+
+#button_search {
+    width: 200px; 
+    height: 30px; 
+    font-size: 18px; 
+    margin-left: 10px; 
+    border-radius: 5pc;
+}
+
+#digimon_information {
+    width: 60%;
+    height: 50%;
+    text-align: center;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 5pc;
+    border-style: dashed;
+}
+
+#show-info{
+    width: 80%;
+    height: 300px; 
+    text-align: center;
+    flex-direction: row;
+}
+
+.digimon-info {
+    display: flex;
+    justify-content: space-between ;
+}
+
+.name-digimon{
+    margin-left: 20%;
+}
+

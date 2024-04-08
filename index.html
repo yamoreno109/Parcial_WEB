@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcial_Web</title>
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="./estilos.css">
+    <img src="./Imagen/Digimon_Logo.png" alt="" width="280" >
+</head>
+<body id="container-home">
+    <h1>Consulta tu Digimon</h1>
+    <div class="input-container">
+        <input type="text" id="input_digimon">
+        <button id="button_search" onclick="obtenerValor()">Buscar</button>
+    </div>
+    
+    <div id="digimon_information">
+        <h3>Información del digimón</h3>
+        <div id="show-info"></div>
+        
+    </div>
+    
+</body>
+</html>
